@@ -42,8 +42,9 @@ function destroy()
 local success, errorMsg = pcall(function()
         game:GetService("CoreGui").Orion:Destroy()
     end)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EtherbyteHub/Anime-Spirits-script-/main/Anime%20spirits%20script",true))()
-    if not success then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EtherbyteHub/Anike-spirits-choose-which-ui/main/Anime%20spirits%20Choose%20ui",true))()
+
+if not success then
         warn("Failed to destroy UI: " .. errorMsg)
 
     end
